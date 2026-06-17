@@ -13,15 +13,14 @@
 </p>
 
 <p align="center">
-  A curated list of open-source projects that have integrated <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-atlas-cloud-integrations"><b>Atlas Cloud</b></a> —
-  a full-modal AI inference platform offering LLM, image and video generation through a single OpenAI-compatible API.
+  English | <a href="./README.zh-CN.md">简体中文</a> | <a href="./README.ja.md">日本語</a>
+</p>
+
+<p align="center">
+  A curated list of open-source projects that integrate <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-atlas-cloud-integrations">Atlas Cloud</a> — one OpenAI-compatible API for LLM, image and video generation.
 </p>
 
 ---
-
-> 🎁 **[Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-atlas-cloud-integrations)** gives developers one API to access 300+ curated models across all modalities — DeepSeek, Qwen, Claude, GPT, Gemini, GLM, Kimi, MiniMax, FLUX, Seedance, Kling and more. Connect once, no multi-vendor setup.
->
-> · [Models](https://www.atlascloud.ai/models) · [Coding Plan](https://www.atlascloud.ai/console/coding-plan) · [Docs](https://www.atlascloud.ai/docs)
 
 ## Contents
 
@@ -30,106 +29,92 @@
 - [Coding Agents](#coding-agents)
 - [RAG & Data Pipelines](#rag--data-pipelines)
 - [LLM Frameworks](#llm-frameworks)
-- [Image · Video · Multimodal](#image--video--multimodal)
+- [Image, Video & Multimodal](#image-video--multimodal)
 - [Testing & Security](#testing--security)
 - [Browser & Web Tools](#browser--web-tools)
 - [Desktop & Companion Apps](#desktop--companion-apps)
 - [Learning & Skills](#learning--skills)
-- [Contributing](#contributing)
-- [About Atlas Cloud](#about-atlas-cloud)
-
----
 
 ## AI Gateway & Router
 
-- **[axonhub](https://github.com/looplj/axonhub)** ⭐4.3k `Go` — ⚡️ Open-source AI Gateway: use any SDK to call 100+ LLMs, with built-in failover, load balancing, cost control and end-to-end tracing. · [Website](https://axonhub.onrender.com/)
+- [axonhub](https://github.com/looplj/axonhub) — Open-source AI Gateway: call 100+ LLMs through any SDK, with built-in failover, load balancing and tracing.
 
 ## Agent Frameworks & Harnesses
 
-- **[oumi](https://github.com/oumi-ai/oumi)** ⭐9.3k `Python` — Easily fine-tune, evaluate and deploy Gemma, Qwen, gpt-oss, DeepSeek-R1, or any open-source LLM / VLM. · [Website](https://oumi.ai)
-- **[fastapi-langgraph-agent-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)** ⭐2.4k `Python` — Production-ready FastAPI template for building scalable, secure and maintainable AI agent services with LangGraph.
-- **[octos](https://github.com/octos-org/octos)** ⭐1.1k `Rust` — Agentic Operating System.
-- **[cheetahclaws](https://github.com/SafeRL-Lab/cheetahclaws)** ⭐731 `Python` — Fast, easy-to-use agent harness infrastructure for long-horizon, multi-model and tool-using AI systems. · [Website](https://cheetahclaws.github.io)
-- **[stash](https://github.com/alash3al/stash)** ⭐713 `Go` — Persistent memory layer for AI agents: episodes, facts and working context in Postgres, with a built-in MCP server. Self-hosted, single binary. · [Website](https://usestash.io/)
+- [oumi](https://github.com/oumi-ai/oumi) — Fine-tune, evaluate and deploy Gemma, Qwen, gpt-oss, DeepSeek-R1 and other open LLMs / VLMs.
+- [fastapi-langgraph-agent-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) — Production-ready FastAPI template for building AI agent services with LangGraph.
+- [octos](https://github.com/octos-org/octos) — Agentic Operating System.
+- [cheetahclaws](https://github.com/SafeRL-Lab/cheetahclaws) — Fast, easy-to-use agent harness for long-horizon, multi-model, tool-using AI systems.
+- [stash](https://github.com/alash3al/stash) — Persistent memory layer for AI agents, backed by Postgres, with a built-in MCP server.
 
 ## Coding Agents
 
-- **[reopencode](https://github.com/MurrayHill1127/reopencode)** ⭐1.6k `Rust` — Open-source AI coding agent.
-- **[VTCode](https://github.com/vinhnx/VTCode)** ⭐696 `Rust` — Coding agent with LLM-native code understanding, robust shell safety, and multi-provider automatic failover. · [Website](https://vinhnx.github.io)
-- **[mathcode](https://github.com/math-ai-org/mathcode)** ⭐574 `Shell` — A frontier mathematical coding agent. · [Website](https://math-ai-org.github.io/mathcode)
+- [reopencode](https://github.com/MurrayHill1127/reopencode) — Open-source AI coding agent.
+- [VTCode](https://github.com/vinhnx/VTCode) — Coding agent with LLM-native code understanding and robust shell safety.
+- [mathcode](https://github.com/math-ai-org/mathcode) — A frontier mathematical coding agent.
 
 ## RAG & Data Pipelines
 
-- **[Verba](https://github.com/weaviate/Verba)** ⭐7.7k `Python` — Retrieval-Augmented Generation (RAG) chatbot powered by Weaviate.
-- **[AnyCrawl](https://github.com/any4ai/AnyCrawl)** ⭐3.2k `TypeScript` — Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results, with native multi-threading. · [Website](https://anycrawl.dev)
+- [Verba](https://github.com/weaviate/Verba) — Retrieval-Augmented Generation (RAG) chatbot powered by Weaviate.
+- [AnyCrawl](https://github.com/any4ai/AnyCrawl) — Crawler that turns websites into LLM-ready data and structured SERP results.
 
 ## LLM Frameworks
 
-- **[LLPhant](https://github.com/LLPhant/LLPhant)** ⭐1.7k `PHP` — A comprehensive PHP Generative AI framework, inspired by LangChain.
+- [LLPhant](https://github.com/LLPhant/LLPhant) — A comprehensive PHP Generative AI framework, inspired by LangChain.
 
-## Image · Video · Multimodal
+## Image, Video & Multimodal
 
-- **[LightX2V](https://github.com/ModelTC/LightX2V)** ⭐2.4k `Python` — Lightweight image / video generation inference framework. · [Website](https://x2v.light-ai.top/generate)
-- **[paperbanana](https://github.com/llmsresearch/paperbanana)** ⭐2.0k `Python` — Open-source automated academic figures, diagrams and research visuals (extends Google Research's PaperBanana), expanded to slide generation.
-- **[manga-translator-ui](https://github.com/hgmzhn/manga-translator-ui)** ⭐1.9k `Python` — 开源漫画翻译工具，支持日/韩/美漫自动翻译，内置 OpenAI、Gemini 等 5 种翻译引擎，含可视化编辑器，一键安装开箱即用。
-- **[opentalking](https://github.com/datascale-ai/opentalking)** ⭐1.2k `Python` — Industrial-grade open-source AI digital human framework with real-time conversation, private deployment and pluggable models. · [Website](https://www.opentalking.net/)
-- **[gemini-skill](https://github.com/WJZ-P/gemini-skill)** ⭐825 `JavaScript` — Drawing MCP & skill via browser, usable in OpenClaw or any MCP-supporting agent.
-- **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** ⭐548 `Python` — Your own personal AIGC factory — any picture, any reel, the Comfy way.
+- [LightX2V](https://github.com/ModelTC/LightX2V) — Lightweight image / video generation inference framework.
+- [paperbanana](https://github.com/llmsresearch/paperbanana) — Automated academic figures, diagrams and research visuals.
+- [manga-translator-ui](https://github.com/hgmzhn/manga-translator-ui) — Open-source manga translation tool with a visual editor and multiple engines.
+- [opentalking](https://github.com/datascale-ai/opentalking) — Industrial-grade AI digital human framework with real-time conversation.
+- [gemini-skill](https://github.com/WJZ-P/gemini-skill) — Drawing MCP & skill usable in OpenClaw or any MCP-supporting agent.
+- [ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw) — Your own personal AIGC factory, the Comfy way.
 
 ## Testing & Security
 
-- **[promptfoo](https://github.com/promptfoo/promptfoo)** ⭐22.3k `TypeScript` — Test prompts, agents and RAGs; red teaming and vulnerability scanning for AI. Compare GPT, Claude, Gemini, DeepSeek and more. Used by OpenAI and Anthropic. · [Website](https://promptfoo.dev)
-- **[gosec](https://github.com/securego/gosec)** ⭐8.9k `Go` — Go security checker. · [Website](https://securego.io)
+- [promptfoo](https://github.com/promptfoo/promptfoo) — Test prompts, agents and RAGs; red teaming and vulnerability scanning for AI.
+- [gosec](https://github.com/securego/gosec) — Go security checker.
 
 ## Browser & Web Tools
 
-- **[gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram)** ⭐15.7k `TypeScript` — Free, simple, fast interactive diagrams for any GitHub repository. · [Website](https://gitdiagram.com)
-- **[nginx-ui](https://github.com/0xJacky/nginx-ui)** ⭐11.2k `Go` — Yet another WebUI for Nginx. · [Website](https://nginxui.com)
-- **[page-assist](https://github.com/n4ze3m/page-assist)** ⭐8.0k `TypeScript` — Use your locally running AI models to assist you in your web browsing. · [Chrome Web Store](https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo)
-- **[design-extract](https://github.com/Manavarya09/design-extract)** ⭐3.3k `JavaScript` — Extract any website's complete design system with one command: DTCG tokens, MCP server, multi-platform emitters (SwiftUI, Compose, Flutter), Figma variables and more. · [Website](https://www.designlang.app)
+- [gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) — Free, fast interactive diagrams for any GitHub repository.
+- [nginx-ui](https://github.com/0xJacky/nginx-ui) — Yet another WebUI for Nginx.
+- [page-assist](https://github.com/n4ze3m/page-assist) — Use your locally running AI models to assist your web browsing.
+- [design-extract](https://github.com/Manavarya09/design-extract) — Extract any website's complete design system with one command.
 
 ## Desktop & Companion Apps
 
-- **[hermes-desktop](https://github.com/fathah/hermes-desktop)** ⭐12.3k `TypeScript` — Desktop companion for Hermes Agent.
-- **[fount](https://github.com/steve02081504/fount)** ⭐705 `JavaScript` — ⛲ Imagination, given voice — a character / companion platform. · [Website](https://steve02081504.github.io/fount/)
+- [hermes-desktop](https://github.com/fathah/hermes-desktop) — Desktop companion for Hermes Agent.
+- [fount](https://github.com/steve02081504/fount) — Imagination, given voice — a character / companion platform.
 
 ## Learning & Skills
 
-- **[Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** ⭐14.1k `Python` — Convert documentation websites, GitHub repositories and PDFs into Claude AI skills with automatic conflict detection. · [Website](https://skillseekersweb.com/)
-- **[ai-hands-on](https://github.com/Ramakm/ai-hands-on)** ⭐1.1k `Jupyter Notebook` — A collection of notebooks and files to help you learn AI from scratch. · [Website](https://growtechie.substack.com/)
+- [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) — Convert documentation sites, GitHub repos and PDFs into Claude AI skills.
+- [ai-hands-on](https://github.com/Ramakm/ai-hands-on) — Notebooks to help you learn AI from scratch.
 
 ---
 
 ## Contributing
 
-Contributions are welcome! This list tracks open-source projects that integrate Atlas Cloud.
+Contributions are welcome! Open a PR to add an open-source project that integrates Atlas Cloud (LLM / image / video) as an AI provider. Keep the format simple:
 
-To add a project:
+```md
+- [name](repo-url) — One-line description.
+```
 
-1. The project should have a shipped integration that adds Atlas Cloud as an AI provider (LLM / image / video).
-2. Open a PR adding an entry under the most relevant category, keeping the format:
-   ```md
-   - **[name](repo-url)** ⭐stars `Language` — One-line description. · [Website](homepage)
-   ```
-3. Sort entries by stars within each category. The `· [Website](...)` part is optional (only if the project has a homepage).
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+Add the entry under the most relevant category. See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## About Atlas Cloud
 
-[Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-atlas-cloud-integrations) is a full-modal AI inference platform that gives developers a single, OpenAI-compatible API for:
+[Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-atlas-cloud-integrations) is a full-modal AI inference platform — one OpenAI-compatible API and endpoint (`https://api.atlascloud.ai/v1`) for 300+ curated models:
 
 - **LLMs** — DeepSeek, Qwen, Claude, GPT, Gemini, GLM, Kimi, MiniMax, Grok and more
-- **Image generation** — FLUX, Seedream, gpt-image and more
-- **Video generation** — Seedance, Kling, Wan and more
+- **Image** — FLUX, Seedream, gpt-image and more
+- **Video** — Seedance, Kling, Wan and more
 
-One API key, one endpoint (`https://api.atlascloud.ai/v1`), 300+ curated models.
-
-- 🌐 Website: https://www.atlascloud.ai
-- 📚 Docs: https://www.atlascloud.ai/docs
-- 🧩 Models: https://www.atlascloud.ai/models
-- 💳 Coding Plan: https://www.atlascloud.ai/console/coding-plan
+[Website](https://www.atlascloud.ai) · [Docs](https://www.atlascloud.ai/docs) · [Models](https://www.atlascloud.ai/models) · [Coding Plan](https://www.atlascloud.ai/console/coding-plan)
 
 ---
 
-<sub>Maintained by the Atlas Cloud team · Want to collaborate (co-marketing / featured integration)? Reach us at <b>marketing@atlascloud.ai</b></sub>
+<sub>Maintained by the Atlas Cloud team · Want to collaborate (co-marketing / featured integration)? Reach us at marketing@atlascloud.ai</sub>
